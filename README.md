@@ -35,7 +35,8 @@ Joseph Paul Spann
 Completed before 10/16/2021 11:59 PM
 
 # Screenshot
-image URL located within project: ![alt text](./assets/images/weatherDashboard.gif)
+Image URL located within project: 
+![alt text](./assets/images/weatherDashboard.gif)
 
 # Link
 URL Link to website: https://jpspann91.github.io/WeatherDashboard/
