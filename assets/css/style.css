@@ -1,11 +1,12 @@
 /* Styles for website */
-
+/*Elemental Selectors*/
 body{
     background-color:darkseagreen;
 }
 label{
     color: whitesmoke;
 }
+/*ID selectors*/
 #header{
     background-size: cover;
     background-position-y: 40%;
@@ -26,13 +27,7 @@ label{
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 
-
-.jumbotron {
-    padding: 1rem;
-    border-radius: 0;
-}
-
-
+/*more ID selectors*/
 #search-city{
     width:80%;
 }
@@ -58,7 +53,7 @@ label{
     margin: .5em 0em 0em .5em;
 }
 
-
+/*Class Selectors*/
 .weather-card{
     width: 9rem;
     background-color: darkslategray;
@@ -66,7 +61,7 @@ label{
     text-align: center;
 }
 
-
+/*Used for UV index*/
 .uv-favorable{
     background-color: green;
     border-radius: 5px;
@@ -85,7 +80,12 @@ label{
     color: white;
 }
 
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
 
+/*Media Querys for responsive design*/
 @media only screen and (max-width: 992px) {
     #search-city{
         width:100%;

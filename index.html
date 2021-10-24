@@ -2,6 +2,7 @@
 
 <html lang="en">
 
+<!--HTML Meta Tags-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,24 +26,25 @@
     <div id="content" class="container">
         <div class="row">
 
-            <!-- Left side content with city search box and appended cities -->
+            <!-- Left side content with city search box and search history -->
             <div id="content-left" class="col-md-3">
                 <form>
                     <label for="search-city">Search for a City:</label>
                     <div class="form-row">
+                        <!--Default value of San Diego on page load-->
                         <input id="search-city" class="form-control" name="city" value="San Diego"></input>
-                        <!-- fontawesome magnifying glass -->
+                
                         <button id="search-button" class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
                     </div>
                 </form>
                 <div id="search-error"></div>
-                <!-- list of prior searched cities -->
+                <!-- list of prior search history -->
                 <ul id="city-results" class="list-group mt-4 list-unstyled"></ul>
-                <!-- clear storage button -->
+                <!-- clear storage link -->
                 <a id="clear-storage" href="#"></a>    
             </div>
 
-            <!-- Right side content showing current weather and five day forecast displays on search -->
+            <!-- Right side content showing current weather and five day forecast -->
             <div id="content-right" class="col-md-9 pt-4">
                 <!-- Current weather displayed on top -->
                 <div id="current-weather" class="border rounded"></div>
